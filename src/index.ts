@@ -88,3 +88,19 @@ let strArray = getArray<string>(['step','joe','doe']);
 
 numArray.splice(3)
 console.log(numArray)
+
+
+// VirtualPoint
+
+class VirtualPoint {
+  x: number;
+  y: number;
+ 
+  constructor(x: number=9, y: number=3) {
+    this.x = x;
+    this.y = y;
+  }
+}
+ 
+const newVPoint = new VirtualPoint();
+console.log(newVPoint); // logs "13, 56"
